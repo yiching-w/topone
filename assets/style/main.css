@@ -7,7 +7,7 @@
     --color-default: #364d59;
     --color-primary: #e50015;
     --color-secondary: #010100;
-    --font-cursive: cursive;
+    --font-DFKai-sb: DFKai-sb;
     --font-default: 'Noto Serif TC', serif;
 }
 
@@ -20,7 +20,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-    font-family: 'Aboreto', var(--font-cursive);
+    font-family: 'Aboreto', var(--font-DFKai-sb), var(--font-default), cursive;
     color: var(--color-default);
     overflow-x: hidden;
     background: #FFFFFF url("../images/bg.jpg") repeat left top fixed;
@@ -734,7 +734,6 @@ section {
     font-size: 20px;
     letter-spacing: 8px;
     font-weight: bold;
-    font-family: var(--font-cursive);
 }
 
 .course .btn-contact::after {
@@ -1976,7 +1975,6 @@ section {
     font-size: 25px;
     letter-spacing: 10px;
     font-weight: bold;
-    font-family: var(--font-cursive);
 }
 
 @media (max-width: 991px) {
